@@ -1,0 +1,91 @@
+.invoice-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+}
+
+.invoice-actions {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.generate-pdf-button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.generate-pdf-button:hover {
+  background-color: #45a049; 
+}
+
+.invoice-container {
+  padding: 20px;
+  border: 1px solid black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  width: 100%;
+  box-sizing: border-box; 
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.logo {
+  width: 100px; 
+  margin-bottom: 10px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px; 
+}
+
+.seller-details, .billing-details, .shipping-details {
+  width: 30%;
+}
+
+.order-invoice-details {
+  margin: 10px 0; 
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0; 
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 4px; 
+  text-align: left;
+}
+
+.total-row {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.signature {
+  text-align: right;
+  margin-top: 20px; 
+}
+
+.signature-image {
+  width: 150px; 
+}
